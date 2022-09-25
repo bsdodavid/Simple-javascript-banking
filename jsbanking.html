@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kekran mekran bank</title>
+    <style>
+        *{
+            
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+        }
+        #container_{
+            position: absolute;
+            left: 27%;
+            height: 500px;
+            width: 700px;
+            align-content: center;
+            background-color: burlywood;
+        }
+        #header_{
+            height: 0px;
+            width: 600px;
+            position: relative;
+            left: 60px;
+            text-align: center;
+            justify-content: space-between;
+        }
+        #choices_div{
+            height: 100px;
+            width: 250px;
+            justify-content: space-between;
+            position: relative;
+            left: 70%;
+            top: 25%;
+            font-size: 20px;
+        }
+        #withdraw_{
+            font-size: 20px;
+        }
+        #deposit_{
+            font-size: 20px;
+            margin-top: 4px;
+        }
+        #submit_{
+            height: 40px;
+            width: 80px;
+            margin-top: 7px;
+        }
+        #result_{
+            position: relative;
+            top: 30%;
+            left: 0%;
+            height: 150px;
+            width: 700px;
+            margin-left: 4px;
+        }
+        #result2_{
+            height: 30px;
+            width: 700px;
+            background-color: lightsalmon;
+            position: relative;
+            top: 50%
+        }
+        h3{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="container_">
+        <div id="header_">
+            <h2 id="welcome_">Welcome to</h2>
+            <h1 id="bankname_">Mariyamman Indian Bank</h1>
+        </div>
+        <div id="result_"></div>
+        <div id="result2_"><h3></h3></div>
+        <div id="choices_div">
+            <button value="withdraw" name="choose" id="withdraw_" class="radio--"> widthdraw </button><br>
+            <button value="deposit" name="choose" id="deposit_" class="radio--"> deposit </button><br>
+        </div>
+        <script src="bankjs.js"></script>
+    </div>
+</body>
+</html>
